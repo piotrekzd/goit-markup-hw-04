@@ -15,6 +15,7 @@
   --title-bg-overlay: #2f303a;
   --crew-background: #f5f4fa;
   --button-list-item-color: #f5f4fa;
+  --icon-background: #f5f4fa;
   --picture-list-card-border: #eeeeee;
 }
 
@@ -208,11 +209,8 @@ p {
 .lorem-list {
   margin-left: -10px;
   margin-right: 10px;
-  display: flex;
-}
-
-.lorem-list {
   list-style: none;
+  display: flex;
 }
 
 .lorem-list-title {
@@ -221,6 +219,14 @@ p {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.lorem-icon {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--icon-background);
+  border-radius: 4px;
 }
 
 .lorem-list-content {
