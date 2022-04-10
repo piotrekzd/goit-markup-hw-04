@@ -144,8 +144,10 @@ p {
 
 .contact-mail {
   margin-left: auto;
+  align-items: center;
   margin-right: 30px;
 }
+
 
 .icon-mail,
 .icon-tel {
@@ -160,7 +162,7 @@ p {
   background-image: linear-gradient(
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)),
-    url('/images/background.png');
+    url('./images/background.png');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
