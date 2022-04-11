@@ -18,6 +18,7 @@
   --icon-background: #f5f4fa;
   --picture-list-card-border: #eeeeee;
   --social-icon: #AFB1B8;
+  --clients-icon: #AFB1B8;
 }
 
 body {
@@ -368,8 +369,31 @@ p {
   letter-spacing: 0.03em;
 }
 
+.clients-list {
+  margin-left: -30px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
 
+.clients-list-link {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: var(--social-icon);
+  border: 1px solid var(--clients-icon);
+  border-radius: 4px;
+}
 
+.clients-list-link:hover,
+.clients-list-link:focus {
+  border-color: var(--blue-color);
+  fill: var(--blue-color);
+}
+
+/* our-clients-end */
 
 /* btn-section */
 
