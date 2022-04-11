@@ -40,7 +40,8 @@ img {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   margin: 0;
 }
 
@@ -353,7 +354,22 @@ p {
   fill:var(--white-color);
   background-color: var(--blue-color);
 }
+
 /* crew-end */
+
+/* clients */
+
+.our-clients-title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+
+
 
 /* btn-section */
 
