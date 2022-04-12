@@ -42,7 +42,8 @@ img {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   margin: 0;
 }
 
@@ -395,6 +396,7 @@ p {
 
 /* our-clients-end */
 
+/* portfolio */
 /* btn-section */
 
 .btn-list {
@@ -428,6 +430,9 @@ p {
 .button-nav:focus {
   color: var(--white-color);
   background-color: var(--blue-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+              0px 1px 2px rgba(0, 0, 0, 0.08),
+              0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* btn-section-end */
@@ -476,6 +481,7 @@ p {
 }
 
 /* pic-list-end */
+/* portfolio-end */
 
 /* footer */
 
@@ -521,6 +527,25 @@ p {
 .address-list-tel {
   font-style: normal;
   color: var(--grey-color);
+}
+
+.footer-left-title {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer-social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* footer-end */
