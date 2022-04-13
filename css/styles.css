@@ -24,6 +24,7 @@
 
 body {
   font-family: var(--main-font);
+  max-width: 1600px;
   color: var(--main-color);
 }
 
@@ -340,17 +341,19 @@ p {
 
 .social-icon a {
   display: inline-flex;
-  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
   }
 
 .social-icon-link {
   width: 44px;
   height: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
   border-radius: 50%;
   fill: var(--social-icon);
+}
+
+.social-icon-link:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-icon-link:hover{
