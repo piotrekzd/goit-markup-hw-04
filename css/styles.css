@@ -24,6 +24,7 @@
 
 body {
   font-family: var(--main-font);
+  margin: 0 auto;
   max-width: 1600px;
   color: var(--main-color);
 }
