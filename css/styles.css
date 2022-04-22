@@ -23,9 +23,8 @@
 }
 
 body {
-  font-family: var(--main-font);
   margin: 0 auto;
-  max-width: 1600px;
+  font-family: var(--main-font);
   color: var(--main-color);
 }
 
